@@ -1,0 +1,38 @@
+
+
+
+section {
+	background-color: Black;
+	height: auto;
+	width: auto;
+	padding: 0px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+p {
+	font-family: sans-serif;
+	margin: 0px;
+  color: white;
+}
+
+
+h1 {
+	margin: 0px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 40PX;
+  font-weight: bold;
+}
+
+body{
+  height: 100%;
+	margin: 0px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 24PX;
+  font-weight: bold;
+  height: 100%;
+  background-color: black;
+}
