@@ -3,8 +3,10 @@ section {
 	height: auto;
 	width: auto;
 	padding: 0px;
+	padding-bottom: 40px;
+	display: flex;
+	flex-wrap: wrap;
 }
-
 
 div {
   height: 200px;
@@ -15,25 +17,37 @@ div {
   border-top: 1px solid white;
   border-right: 1px solid white;
   padding: 0px;
+	position: relative;
 }
 
-section:not(:first-child) {
-	margin-top: 20px;
-	display: flex;
-  flex-wrap: wrap;
+
+p {
+	font-family: sans-serif;
+	margin: 0px;
 }
 
 
 h1 {
-	font-family: 'Neue Haas Grotesk Display Pro';
-	color: rgba(0, 56, 255, 1);
+	margin: 0px;
+	font-family: sans-serif;
+	color: white;
 	font-size: 40PX;
   font-weight: bold;
 }
 
 body{
-	font-family: 'Neue Haas Grotesk Display Pro';
+	margin: 0px;
+	font-family: sans-serif;
 	color: white;
 	font-size: 24PX;
   font-weight: bold;
+}
+
+img {
+		width: 100px;
+		height: 100px;
+		bottom: 0px;
+		left: 0px;
+		position: absolute;
+
 }
