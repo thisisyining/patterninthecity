@@ -1,15 +1,18 @@
 
-
-
 section {
 	background-color: Black;
 	height: auto;
 	width: auto;
-	padding: 0px;
-	padding-bottom: 40px;
+	padding: 32px;
+	padding-bottom: 0px;
 	display: flex;
 	flex-wrap: wrap;
 }
+
+a:visited {
+	color: white;
+}
+
 
 p {
 	font-family: sans-serif;
@@ -22,7 +25,7 @@ h1 {
 	margin: 0px;
 	font-family: sans-serif;
 	color: white;
-	font-size: 40PX;
+	font-size: 88PX;
   font-weight: bold;
 }
 
@@ -31,7 +34,7 @@ body{
 	margin: 0px;
 	font-family: sans-serif;
 	color: white;
-	font-size: 24PX;
+	font-size: 32PX;
   font-weight: bold;
   height: 100%;
   background-color: black;
