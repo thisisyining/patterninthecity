@@ -9,10 +9,20 @@ section {
 	flex-wrap: wrap;
 }
 
+
+
+.titletext {
+	display: flex;
+	justify-content: space-between;
+}
+
 a:visited {
 	color: white;
 }
 
+a:hover {
+	color:blue;
+}
 
 p {
 	font-family: sans-serif;

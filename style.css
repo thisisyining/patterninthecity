@@ -9,8 +9,20 @@ section {
 	flex-wrap: wrap;
 }
 
+
+
+.titletext {
+	display: flex;
+	justify-content: space-between;
+}
+
+
 a:visited {
 	color: white;
+}
+
+a:hover {
+	color:blue;
 }
 
 
@@ -46,6 +58,7 @@ div {
 p {
 	font-family: sans-serif;
 	margin: 0px;
+	color: white;
 }
 
 
@@ -55,6 +68,15 @@ h1 {
 	color: white;
 	font-size: 88PX;
   font-weight: bold;
+}
+
+h2 {
+	margin: 0px;
+	font-family: sans-serif;
+	color: white;
+	font-size: 88PX;
+  font-weight: bold;
+	text-align: right;
 }
 
 body{
