@@ -11,6 +11,11 @@ section {
 }
 
 
+.titletext2 {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 32px;
+}
 
 .titletext {
 	display: flex;
