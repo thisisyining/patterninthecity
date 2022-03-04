@@ -11,6 +11,7 @@ section {
 
 
 
+
 .titletext {
 	display: flex;
 	justify-content: space-between;
@@ -35,6 +36,7 @@ a {
 p {
 	font-family: sans-serif;
 	margin: 0px;
+	margin-bottom: 22px;
   color: white;
 }
 
